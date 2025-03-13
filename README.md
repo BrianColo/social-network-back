@@ -22,6 +22,7 @@ The application is divided into two microservices:
 - npm (Node package manager)
 - TypeScript
 - Prisma CLI
+- Docker and Docker Compose
 
 ### Installation
 
@@ -58,6 +59,16 @@ For Posts Service:
 ```
 npm run start
 ```
+
+### Running with Docker Compose
+
+To run the entire application using Docker Compose, use the following command from the root directory:
+
+```
+docker-compose up --build
+```
+
+This will build and start all the services defined in the `docker-compose.yml` file.
 
 ### API Documentation
 
